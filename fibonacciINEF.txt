@@ -1,0 +1,20 @@
+Classical (but dam' inefficient) Fibonacci sequence generator:
+
+
+
+It is achieved by implementing the sequence using recursion without memoization. 
+The Fibonacci sequence is defined by the recurrence relation 
+			F(n)=F(n−1)+F(n−2), 
+			with base cases F(0)=0 and F(1)=1
+
+Computational Inefficiency revealed:
+
+		The inefficiency in this script comes from the fact that the function recalculates Fibonacci numbers 
+	for each branch of the recursion tree, leading to a dramatic increase in the total number of calculations 
+	required as n grows. 
+		For example, calculating F(10) directly calls F(9) and F(8), 
+	but then F(9) itself calls F(8) again and so on, resulting in a significant overlap in calculations.
+
+		This approach has an exponential time complexity, specifically O(2^n), making it impractical for 
+	large values of nn. For larger nn, iterative solutions or recursive solutions with memoization are far more 
+	efficient, as they avoid redundant calculations by storing previously computed values.
