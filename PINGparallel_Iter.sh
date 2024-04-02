@@ -4,7 +4,7 @@
 JOB_LIST="job-list.txt"
 
 # Maximum number of concurrent ping operations
-MAX_JOBS=5
+MAX_JOBS=$1
 
 # Check if the job list file exists
 if [ ! -f "$JOB_LIST" ]; then
