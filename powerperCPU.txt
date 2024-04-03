@@ -1,0 +1,32 @@
+CPU multicore consumes:
+5W/h in idle
+75W/h in full load
+
+1000 processes (apps):
+
+70 min each if innefficient (algorithmic)
+0.01 seconds each if efficient (algorithmic)
+
+Knowing that the price per kW is1$
+
+Find the amount of time (hours, minutes, seconds) for 1000 apps (inef vs effi)
+Find the amount of dollars to be spent with power
+
+
+POWER:
+
+75kW/h x 1000 apps x TOTAL min ???
+
+87.5 $
+
+IF INEFFICIENT:
+
+70000 min (around 49 days)
+
+
+
+EFFICIENT
+
+10 sec
+0.002 $ in total
+
