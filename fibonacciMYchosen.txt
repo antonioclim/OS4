@@ -1,0 +1,18 @@
+An iterative approach (see the script with the same name):
+
+Explanation:
+
+    Iterative Calculation: 		Instead of using recursion, this script calculates Fibonacci numbers using a loop, 
+                           	which significantly reduces the computational complexity. For each iteration from 2 to n, 
+				it updates the last two numbers of the sequence and computes the next one, effectively achieving 
+				linear time complexity O(n).
+
+    Special Cases: 			The script handles n=0 and n=1 as special cases, directly returning the first two Fibonacci numbers.
+
+
+Computational Efficiency:
+
+		This iterative approach is computationally efficient for calculating Fibonacci numbers, even for large n, because it avoids the exponential 
+	number of function calls required by the naive recursive solution. Its time complexity is linear (O(n)), making it significantly faster and 
+	more practical for large inputs.
+
