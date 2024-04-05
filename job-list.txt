@@ -1,10 +1,10 @@
 google.com 10
 facebook.com 3
-youtube.com 5
-linkedin.com 20
-twitter.com 8
-sop.ase.ro 10
-github.com 3
-ubuntu.com 5
-redhat.com 6
+youtube.com 3
+online.ase.ro 20
+twitter.com 3
+sop.ase.ro 15
+imag.city 5
+ubuntu.com 3
+info-world.ro 5
 kubernetes.io 20
