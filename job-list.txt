@@ -7,4 +7,4 @@ sop.ase.ro 15
 imag.city 5
 ubuntu.com 3
 info-world.ro 5
-kubernetes.io 20
+kubernetes.io 5
